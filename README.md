@@ -62,12 +62,6 @@ Use Docusaurus deploy command from your local machine.
 ```bash
 npm ci
 npm run build
-GIT_USER=<your-github-username> npm run deploy
-```
-
-If you use SSH for GitHub:
-
-```bash
 USE_SSH=true GIT_USER=<your-github-username> npm run deploy
 ```
 
