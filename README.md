@@ -7,7 +7,6 @@ Static documentation site for the Nodenberg API, prepared for GitHub Pages hosti
 - This repository contains documentation site content only.
 - The API source markdown is copied from:
   - `https://github.com/nodenberg/nodenberg/blob/main/docs/API.md`
-  - (Legacy source path) `/home/ubuntu/17_ex-pdf-gen/03_docker-version/docs/API.md`
 
 ## Notes
 - `docs/reference/API.md` is a copy of the original source and is kept as-is.
