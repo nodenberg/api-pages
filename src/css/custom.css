@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500;10..48,700;10..48,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --ifm-color-primary: #005f92;
+  --ifm-color-primary-dark: #005482;
+  --ifm-color-primary-darker: #004f7a;
+  --ifm-color-primary-darkest: #004063;
+  --ifm-color-primary-light: #0a72a9;
+  --ifm-color-primary-lighter: #1279b0;
+  --ifm-color-primary-lightest: #2e8cbf;
+  --ifm-background-color: #f3f6f9;
+  --ifm-heading-color: #13283a;
+  --ifm-font-family-base: 'IBM Plex Sans', sans-serif;
+  --ifm-font-family-monospace: 'IBM Plex Mono', monospace;
+  --ifm-code-font-size: 92%;
+  --ifm-heading-font-family: 'Bricolage Grotesque', sans-serif;
+  --ifm-navbar-background-color: #101a24;
+  --ifm-navbar-link-color: #d6e2ee;
+  --ifm-footer-background-color: #101a24;
+  --ifm-footer-color: #d8e6f3;
+  --ifm-menu-color-active: #004f7a;
+  --ifm-link-hover-decoration: none;
+  --docusaurus-highlighted-code-line-bg: rgba(4, 86, 131, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #7ec7f4;
+  --ifm-color-primary-dark: #5eb9f1;
+  --ifm-color-primary-darker: #4db2ef;
+  --ifm-color-primary-darkest: #1f9fe9;
+  --ifm-color-primary-light: #9ed5f7;
+  --ifm-color-primary-lighter: #afdcf8;
+  --ifm-color-primary-lightest: #e0f2fd;
+  --ifm-background-color: #0f1822;
+  --ifm-navbar-background-color: #0b1219;
+  --ifm-footer-background-color: #0b1219;
+  --ifm-heading-color: #dfeaf6;
+  --ifm-menu-color-active: #9ed5f7;
+  --docusaurus-highlighted-code-line-bg: rgba(126, 199, 244, 0.15);
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.theme-doc-sidebar-item-link,
+.menu__link {
+  border-radius: 0;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.hero__title {
+  font-family: var(--ifm-heading-font-family);
+  letter-spacing: -0.01em;
+}
+
+.markdown {
+  font-size: 0.98rem;
+}
+
+.table-of-contents {
+  border-left: 2px solid rgba(10, 114, 169, 0.26);
+}
+
+code,
+pre {
+  border-radius: 0;
+}
+
+.pagination-nav__link {
+  border-radius: 0;
+}

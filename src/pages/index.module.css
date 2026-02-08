@@ -1,0 +1,123 @@
+.hero {
+  position: relative;
+  padding: 6rem 1.2rem 5rem;
+  background: radial-gradient(circle at 20% 15%, #fbf2c6 0%, #f5dd94 32%, transparent 50%),
+    linear-gradient(145deg, #0f151d 0%, #111f2b 58%, #17334d 100%);
+  overflow: hidden;
+}
+
+.gridBackdrop {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 34px 34px;
+  opacity: 0.35;
+  mask-image: radial-gradient(circle at center, black 45%, transparent 100%);
+}
+
+.heroInner {
+  position: relative;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.kicker {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  color: #0d2235;
+  background: #f8dfa0;
+}
+
+.title {
+  margin: 0;
+  color: #f6f8fa;
+  font-size: clamp(2.1rem, 5.5vw, 4.2rem);
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+}
+
+.subtitle {
+  max-width: 58ch;
+  margin-top: 1rem;
+  color: #c7d6e5;
+  font-size: 1.07rem;
+}
+
+.actions {
+  margin-top: 1.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.primaryCta,
+.secondaryCta {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.72rem 1rem;
+  font-weight: 700;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.primaryCta {
+  background: #f3ca70;
+  color: #0b1a2a;
+  box-shadow: 5px 5px 0 #0b1a2a;
+}
+
+.secondaryCta {
+  border: 1px solid #9db0c4;
+  color: #dce7f2;
+  background: rgba(12, 24, 39, 0.5);
+}
+
+.primaryCta:hover,
+.secondaryCta:hover {
+  transform: translateY(-2px);
+}
+
+.main {
+  padding: 2.4rem 1rem 4.5rem;
+  background: linear-gradient(180deg, #f7f8fa 0%, #eef2f6 100%);
+}
+
+.highlights {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #cad4df;
+  background: #ffffff;
+  padding: 1.2rem;
+  box-shadow: 0 12px 28px rgba(23, 37, 54, 0.08);
+}
+
+.card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.14rem;
+  color: #111a2a;
+}
+
+.card p {
+  margin: 0;
+  color: #344559;
+}
+
+@media (max-width: 996px) {
+  .highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding-top: 4.5rem;
+  }
+}
